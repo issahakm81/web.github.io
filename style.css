@@ -1,0 +1,60 @@
+body,
+html
+
+header {
+   
+    background : url(Studies.png) no-repeat center center fixed; 
+    padding: 10px;
+     text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.faculty-badge {
+    width: 140px; /* Increased size for the badge */
+    height: 140px; /* Set height to make it round */
+    border-radius: 50%; /* Makes the badge round */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+h1 {
+    color: Green
+}
+h2{
+    color: green;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+.file {
+    margin-bottom: 10px;
+    color: green;
+
+}
+
+/* Button Styling - Green Buttons */
+.level-button {
+    display: inline-block; /* Make the link behave like a button */
+    padding: 1rem 2rem; /* Add padding for a button-like appearance */
+    margin: 10px; /* Space between buttons */
+    background-color: #28a745; /* Button background color (green) */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 300px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.level-button:hover {
+    background-color: #218838; /* Darker green on hover */\
+
+
+
